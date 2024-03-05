@@ -1,0 +1,81 @@
+html {
+    font-family: Nunito, Nunito, Nunito, Nunito;
+    overflow-y: hidden;
+}
+
+.app {
+    padding-left: 300px;
+}
+
+.page {
+    background-color: #F0F0F0;
+    /* color: #53545c!important; */
+}
+
+.msg {
+    /* border-radius: 2rem; */
+    /* overflow-y: visible!important; */
+    width:350px;
+    height:600px;
+    position: fixed;
+    bottom: 0%;
+    right: 0%;
+    /* border: 1px solid black; */
+    background-color: white;
+    margin: 0!important;
+    padding: 0!important;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.msg-area {
+    overflow-y: auto!important;
+    height: 80%;
+}
+
+.bubble {
+    height: 10%;
+    background-color: #53555a;
+    border-radius: 2rem;
+    margin-top: 5%;
+    padding-top: 0.5px;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.bubble-ans {
+    height: 15%;
+    background-color: #543460;
+    border-radius: 2rem;
+    margin-top: 5%;
+    padding-top: 0.5px;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.textbox{
+    height: 2px!important;
+    background-color: #888888;
+    border-radius: 1rem;
+    margin-top: 5%;
+}
+
+.msgbox {
+    background-color: transparent;
+    
+}
+
+.input-field input:focus + label {
+    color: #53555a !important;
+  }
+
+  .input-field input[type=text].valid {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000;
+  }
+
+@media only screen and (max-width : 992px) {
+   .app {
+      padding-left: 0;
+    }
+}

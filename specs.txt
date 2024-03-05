@@ -1,0 +1,7 @@
+gender on personal info
+
+
+on admin screen
+sort by age
+sort by skill
+sort by gener

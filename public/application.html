@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Import Google Icon Font-->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link href="fonts\Nunito\nunitofont.css" rel="stylesheet">
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+        <link href="css/application.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    </head>
+    <body>
+        <nav class="nav-extended white">
+            <div class="nav-wrapper">
+                <a href="index.html" class="brand-logo"><img src="img/logo.png" width="80%" alt=""></a>
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="index.html" style="color: #53555a;">Return to Home</a></li>
+                    <li><a href="index.html" class="btn" style="color: white;background-color: #53555a;border-radius: 0.5rem;">Save</a></li>
+                    <li><a href="home.html" class="btn green" style="color: white;border-radius: 0.5rem;">Submit</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">JavaScript</a></li>
+                </ul>
+            </div>
+            <div class="nav-content">
+                <ul class="tabs tabs-transparent">
+                <li class="tab "><a class="active" href="#personal" style="color: #53555a;">Personal Info</a></li>
+                <li class="tab "><a class="" style="color: #53555a;" href="#skills">Skills/Qualifications</a></li>
+                <li class="tab "><a class="" href="#assessment" style="color: #53555a;">Assessment</a></li>
+                <!-- <li class="tab "><a class="" href="#references" style="color: #53555a;">References</a></li> -->
+                <!-- <li class="tab "><a class="" href="#submit" style="color: #53555a;">Submit</a></li> -->
+                </ul>
+            </div>
+        </nav>
+
+        <!-- Personal Questions -->
+        <div id="personal" class="col s12">
+            <div class="row" style="margin-top: 5vh;">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s5">
+                            <input placeholder="first name" id="first_name" type="text" class="validate">                        
+                        </div>
+                        <div class="input-field col s5">
+                            <input placeholder="last name" id="last_name" type="text" class="validate">                       
+                        </div>
+                        <div class="input-field col s2">
+                            <select>
+                                <option value="1" style="color: #53555a;">Male</option>
+                                <option value="2" style="color: #53555a;">Female</option>
+                            </select>
+                            <label>Gender</label>                    
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s4">
+                            <input id="dob" type="date" class="">
+                        </div>
+                        <div class="input-field col s5">
+                            <input placeholder="email" id="email" type="text" class="">                         
+                        </div>
+                        <div class="input-field col s3">
+                            <select>
+                                <option value="1" style="color: #53555a;">Java</option>
+                                <option value="2" style="color: #53555a;">React</option>
+                                <option value="2" style="color: #53555a;">DevOps</option>
+                            </select>
+                            <label>What Role are you applying for</label>
+                        </div>
+                    </div>
+                    <h5 style="color: #53555a;margin-top: 10vh;">References:</h5>
+                    <div class="row">
+                        <div class="col l4">
+                            <h6>First Reference:</h6>
+                            <div class="input-field col s12">
+                                <input placeholder="Reference Name" id="ref1Name" type="text" class="validate">                        
+                            </div>
+                            <div class="input-field col s12">
+                                <input placeholder="Reference Number" id="ref1Number" type="text" class="validate">                        
+                            </div>
+                            <div class="input-field col s12">
+                                <input placeholder="Reference Email" id="ref1Number" type="text" class="validate">                        
+                            </div>
+                        </div>
+                        <div class="col l4">
+                            <h6>Second Reference:</h6>
+                            <div class="input-field col s12">
+                                <input placeholder="Reference Name" id="ref1Name" type="text" class="validate">                        
+                            </div>
+                            <div class="input-field col s12">
+                                <input placeholder="Reference Number" id="ref1Number" type="text" class="validate">                        
+                            </div>
+                            <div class="input-field col s12">
+                                <input placeholder="Reference Email" id="ref1Number" type="text" class="validate">                        
+                            </div>
+                        </div>
+                        <div class="col l4">
+                            <h6>Third Reference:</h6>
+                            <div class="input-field col s12">
+                                <input placeholder="Reference Name" id="ref1Name" type="text" class="validate">                        
+                            </div>
+                            <div class="input-field col s12">
+                                <input placeholder="Reference Number" id="ref1Number" type="text" class="validate">                        
+                            </div>
+                            <div class="input-field col s12">
+                                <input placeholder="Reference Email" id="ref1Number" type="text" class="validate">                        
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="file-field input-field">
+                        <div class="btn" style="background-color: #53555a;border-radius: 0.5rem;">
+                          <span>Upload CV</span>
+                          <input type="file">
+                        </div>
+                        <div class="file-path-wrapper">
+                          <input class="file-path validate" type="text">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!-- Skills/Qualifications -->
+        <div id="skills" class="col s12" style="margin-top: 5vh;">
+            <h5 style="color:#53555a;margin-left: 2vw;">Please enter out all relevant qualifications and skills:</h5><br>
+            <h6 style="color:#53555a;margin-left: 2vw;">Simply type a skill below and press enter:</h6>
+            <div style="margin-left: 2vw;margin-right:2vw" class="chips chips-initial"></div>
+        </div>
+
+        <!-- Assessment -->
+        <div id="assessment" class="col s12">
+            <h5 style="color: #53555a;margin-bottom: 5vh;">Please answer the questions below. These will help us determine how you handle certain situations</h5>
+            <form action="#" style="margin-left: 2vw;">
+                <h6>I'm comfortable working with general guidelines, without specific instructions:</h6>
+                <p>
+                  <input name="group1" type="radio" id="test1" />
+                  <label for="test1">Comfortable</label>
+                </p>
+                <p>
+                  <input name="group1" type="radio" id="test2" />
+                  <label for="test2">Somewhat Comfortable</label>
+                </p>
+                <p>
+                  <input class="with-gap" name="group1" type="radio" id="test3"  />
+                  <label for="test3">Not Comfortable</label>
+                </p>
+
+                <h6 style="margin-top: 5vh;color: #53555a">I'm comfortable working on multiple projects at once:</h6>
+                <p>
+                  <input name="group2" type="radio" id="test1" />
+                  <label for="test1">Comfortable</label>
+                </p>
+                <p>
+                  <input name="group2" type="radio" id="test2" />
+                  <label for="test2">Somewhat Comfortable</label>
+                </p>
+                <p>
+                  <input class="with-gap" name="group2" type="radio" id="test3"  />
+                  <label for="test3">Not Comfortable</label>
+                </p>
+
+                <h6 style="margin-top: 5vh;color: #53555a">If a co-worker is having difficulties with a task, I would:</h6>
+                <p>
+                  <input name="group3" type="radio" id="test1" />
+                  <label for="test1">Help them even at the expense of my task</label>
+                </p>
+                <p>
+                  <input name="group3" type="radio" id="test2" />
+                  <label for="test2">help them only if I could finish my task as well</label>
+                </p>
+                <p>
+                  <input class="with-gap" name="group3" type="radio" id="test3"  />
+                  <label for="test3">tell my supervisor</label>
+                </p>
+
+            </form>
+        </div>
+
+        <!-- References -->
+        <div id="references" class="col s12">
+
+        </div>
+
+        <!-- Submit -->
+        <div id="submit" class="col s12">
+
+        </div>
+        
+        <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+        <script src="js/init.js" type="text/javascript"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', ()=>{
+                // document.getElementById("personal").classList.remove("active")
+            })
+        </script>
+    </body>
+</html>

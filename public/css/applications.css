@@ -1,0 +1,23 @@
+html {
+    font-family: Nunito, Nunito, Nunito, Nunito;
+    overflow-y: hidden;
+}
+
+.app {
+    padding-left: 300px;
+}
+
+.page {
+    background-color: #F0F0F0;
+    /* color: #53545c!important; */
+}
+
+
+
+
+
+@media only screen and (max-width : 992px) {
+   .app {
+      padding-left: 0;
+    }
+}

@@ -1,0 +1,30 @@
+html {
+    font-family: Nunito, Nunito, Nunito, Nunito;
+}
+
+.tab {
+    text-transform: unset !important;
+}
+
+.pages:hover{
+    background-color: #e91414;
+}
+
+.current {
+    border-bottom: 2px solid blue;
+}
+
+/* Tabs underline */
+.tabs .indicator { 
+    background-color:#53555a!important;
+}
+
+/* label focus color */
+.input-field input:focus + label {
+    color: #53555a !important;
+  }
+  /* label underline focus color */
+  .row .input-field input:focus {
+    border-bottom: 1px solid #53555a !important;
+    box-shadow: 0 1px 0 0 #53555a !important
+}
